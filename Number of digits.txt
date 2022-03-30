@@ -1,0 +1,18 @@
+#include<stdio.h>
+
+#include<math.h>
+
+int main(void)
+{   float c;
+    float i =0;
+    float x;
+    printf("Enter a number: ");
+    scanf("%f", &x);
+    do {
+
+        i++;
+        c = x/(pow(10,i));
+        } while (c>1);
+        printf("Nnmber of digits are %0.1f\n", i);
+
+}
